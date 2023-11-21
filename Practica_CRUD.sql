@@ -5,7 +5,7 @@ CREATE TABLE animales (
     id int,
     tipo varchar(255),
     estado varchar(255),
-    PRIMARY KEY (id)
+    PRIMARY KEY (idS)
 );
 
 insert into animales (tipo,estado) values ('chanchitos','feliz');

@@ -1,0 +1,4 @@
+-- ELIMINAR UNA TABLA (DROP TABLE)
+DROP TABLE product; 
+DROP TABLE animales;
+DROP TABLE user; 
