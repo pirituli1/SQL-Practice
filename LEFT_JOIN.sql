@@ -26,7 +26,4 @@ Select u.id, u.email from user u; -- se le da un alias a la tabla (u en este cas
 Select u.id, u.email, p.name from user u LEFT JOIN product p on u.id = p.created_by; -- le pedimos que una la ID con Created_by (que son el mismo número)
 -- se le asigno un alias tambien a la tabla product despues de hacer referencia a ella más adelante 
 
--- righ join 
-
-Select u.id, u.email, p.name from user u LEFT JOIN product p on u.id = p.created_by;
 
